@@ -35,7 +35,7 @@ P = st.slider('Select the level of Perceiving', 0, 25)
 
 #use the following code to predict the output
 # Predict the output
-prediction = rf_model.predict([[E,I,S,N,T,F,J,P]])
+prediction = rf_model.predict([[E,I,N,S,T,F,J,P]])
 # Display the prediction
 # Display the prediction by pressing button
 if st.button('Predict'):
