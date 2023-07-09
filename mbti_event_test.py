@@ -2,7 +2,7 @@
 import streamlit as st
 import pickle
 # Load the dt pickled model
-rf_model = pickle.load(open('model.pkl', 'rb'))
+rf_model = pickle.load(open('rf_model.pkl', 'rb'))
 st.write('ENFJ: The Giver')
 st.write('ENFP: The Champion')
 st.write('ENTJ: The Commander')
