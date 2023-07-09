@@ -1,6 +1,7 @@
 #making streamlit app with pickle model
 import streamlit as st
 import joblib
+import pickle
 rf_model = pickle.load(open('rf_model.pkl', 'rb'))
 st.write('ENFJ: The Giver')
 st.write('ENFP: The Champion')
