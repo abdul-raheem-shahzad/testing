@@ -1,3 +1,4 @@
+pickle
 pandas
 numpy
 seaborn
@@ -6,4 +7,4 @@ scikit-learn
 pillow
 plotly
 streamlit
-pickle
+
