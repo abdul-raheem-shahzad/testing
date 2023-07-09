@@ -1,7 +1,7 @@
 #making streamlit app with pickle model
 import streamlit as st
 import joblib
-rf_model=joblib.load('MBTI_model.joblib')
+rf_model=joblib.load('MBTI_model.pkl')
 # Load the dt pickled model
 #rf_model = pickle.load(open('rf_model.pkl', 'rb'))
 st.write('ENFJ: The Giver')
